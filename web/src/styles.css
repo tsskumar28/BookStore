@@ -1,0 +1,15 @@
+@layer theme, base, primeng, components, utilities;
+
+@import 'tailwindcss';
+@plugin 'tailwindcss-primeui';
+@import 'primeicons/primeicons.css';
+
+/* Keep Tailwind's dark: variant in sync with PrimeNG's darkModeSelector (light theme only for now). */
+@custom-variant dark (&:where(.app-dark, .app-dark *));
+
+body {
+  margin: 0;
+  background-color: var(--p-surface-50);
+  color: var(--p-text-color);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
