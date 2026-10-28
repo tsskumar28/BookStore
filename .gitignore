@@ -1,0 +1,21 @@
+# .NET
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+appsettings.*.local.json
+.vs/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Editors / OS
+.idea/
+.vscode/
+*.log
+Thumbs.db
+.DS_Store
